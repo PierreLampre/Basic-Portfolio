@@ -148,3 +148,31 @@ footer {
    -webkit-text-stroke-color: #b8c7e0;
 }
 
+/* Contact Form Styles */
+
+form {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+form input {
+    font-size: 20px;
+    width: 51.5em;
+    margin: 20px 0px 20px 0px;
+    padding: 15px;
+}
+
+form input:nth-of-type(3) {
+    height: 200px;
+}
+
+label {
+    display: block;
+}
+
+#submit {
+    display: block;
+    background-color: #4aaaa5;
+    color: white;
+    width: 12em;
+}
