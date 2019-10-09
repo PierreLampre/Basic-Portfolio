@@ -1,3 +1,6 @@
+
+/*Master Styles */
+
 * {
     padding: 0;
     margin: 0;
@@ -31,7 +34,7 @@ header {
 }
 
 nav {
-    margin-right: 8.5em;
+    margin-right: 8.9em;
 }
 
 .nav-link{
@@ -48,7 +51,7 @@ a {
     color: #777;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -63,18 +66,6 @@ h1, h2 {
 section {
     margin-top: 15px;
     line-height: 1.5em;
-}
-
-#imgofme {
-    width: 170px;
-    height: 150px;
-    float: left;
-    padding: 20px 20px 10px 0px;
-}
-
-p {
-    padding-top: 20px;
-    font-size: 20px;
 }
 
 h2 {
@@ -95,3 +86,65 @@ footer {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
+/* About Me Styles */
+
+#imgofme {
+    width: 170px;
+    height: 150px;
+    float: left;
+    padding: 20px 20px 10px 0px;
+}
+
+.about-me-p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/* Portfolio Styles */
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-item {
+    width: 300px;
+    height: 240px;
+    margin: 25px;
+    font-size: 30px;
+    background-image: url('../img/portfolio-about-me.png');
+    background-position: center;
+}
+
+.grid-item:nth-of-type(2) {
+    background-image: url('../img/portfolio-gallery.png');
+}
+
+.grid-item:nth-of-type(3) {
+    background-image: url('../img/portfolio-contact.png');
+}
+
+.grid-item:nth-of-type(4) {
+    background-image: url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/225/black-question-mark-ornament_2753.png');
+}
+
+.text-drop {
+    margin-top: 180px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+.text-drop a {
+    text-decoration: none;
+    color: white;
+}
+
+.text-drop a:hover {
+    color:#d1e687;
+    transition: all .4s ease;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #b8c7e0;
+}
+
