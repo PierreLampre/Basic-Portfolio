@@ -175,3 +175,10 @@ label {
     color: white;
     width: 12em;
 }
+
+#submit:hover {
+    background-color: white;
+    color: #4aaaa5;
+    transition: all .4s ease;
+    font-weight: bold;
+}
