@@ -44,6 +44,9 @@ nav {
 .nav-link:nth-of-type(3) {
     margin-right: 0;
 }
+.nav-link:hover {
+    text-decoration: underline;
+}
 
 a {
     text-decoration: none;
