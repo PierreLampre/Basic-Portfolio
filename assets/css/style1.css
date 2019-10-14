@@ -194,6 +194,7 @@ label {
     font-weight: bold;
     border: 2px solid #4aaaa5;
 }
+<<<<<<< HEAD
 /* Media Queries */
 
 @media screen and (max-width: 980px) {
@@ -216,6 +217,24 @@ label {
   }
 
   @media screen and (max-width: 768px) {
+=======
+
+/* Media Queries */
+
+@media screen and (max-width: 1037px) {
+    /* Master & About Me */
+
+    .alignment {
+        width: 800px;
+    }
+
+    #container {
+        width: 745px;
+    }
+  }
+  
+  @media screen and (max-width: 835px) {
+>>>>>>> 6c8e2b8d14e5960f1a4e2165dc310145a0b2434e
     /* Master & About Me */
 
     .alignment {
@@ -223,7 +242,11 @@ label {
     }
 
     #container {
+<<<<<<< HEAD
         width: 600px;
+=======
+        width: 545px;
+>>>>>>> 6c8e2b8d14e5960f1a4e2165dc310145a0b2434e
     }
 
     #imgofme {
@@ -256,8 +279,13 @@ label {
 
   }
 
+<<<<<<< HEAD
   @media screen and (max-width: 640px) {
 
+=======
+  @media screen and (max-width: 622px) {
+    
+>>>>>>> 6c8e2b8d14e5960f1a4e2165dc310145a0b2434e
     /* Master & About Me */
 
     .alignment {
@@ -321,7 +349,11 @@ label {
     /* Contact Form */
 
     form input {
+<<<<<<< HEAD
         width: 15em;
+=======
+        width: 18.5em;
+>>>>>>> 6c8e2b8d14e5960f1a4e2165dc310145a0b2434e
     }
 
     #submit {
@@ -329,5 +361,9 @@ label {
         margin-left: 15px;
     }
 
+<<<<<<< HEAD
   } 
  
+=======
+  }
+>>>>>>> 6c8e2b8d14e5960f1a4e2165dc310145a0b2434e
